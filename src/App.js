@@ -11,7 +11,6 @@ function App() {
 
   //Auto-Increments the Counter by 1, every 2 seconds.
   useEffect(() => {
-    console.log("Running")
     const interval = setInterval(() => {
       setCounter(count => count + 1)
     }, 2000)

@@ -6,7 +6,6 @@
 .App-header {
   background-color: #FFF;
   min-height: 100vh;
-  /* Changed from Flex to Grid*/
   font-size: calc(10px + 2vmin);
   color: #000;
 }
